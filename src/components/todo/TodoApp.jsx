@@ -134,7 +134,6 @@ class TodoApp extends Component {
                 </AuthenticatedRoute>
               }
             />
-            //REACT-6
             <Route
               path="/todos/:id"
               element={
@@ -143,7 +142,6 @@ class TodoApp extends Component {
                 </AuthenticatedRoute>
               }
             />
-            //REACT-6
             <Route
               path="/todos"
               element={
