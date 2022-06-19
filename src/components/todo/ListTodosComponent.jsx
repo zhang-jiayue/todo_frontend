@@ -68,10 +68,9 @@ class ListTodosComponent extends Component {
             <tbody>
               {this.state.todos.map((todo) => (
                 <tr key={todo.id}>
-                  {/* <td>{todo.id}</td> */}
                   <td>{todo.description}</td>
-                  <td>{todo.done.toString()}</td>
                   <td>{moment(todo.targetDate).format('YYYY-MM-DD')}</td>
+                  <td>{todo.done.toString()}</td>
                   <td>
                     <button
                       className="btn btn-success"
